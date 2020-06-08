@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "gilroyextrabold";
+  src: url("gilroy-extrabold-webfont.woff2") format("woff2"),
+    url("gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroybold";
+  src: url("gilroy-bold-webfont.woff2") format("woff2"),
+    url("gilroy-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroyregular";
+  src: url("gilroy-regular-webfont.woff2") format("woff2"),
+    url("gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroymedium";
+  src: url("gilroy-medium-webfont.woff2") format("woff2"),
+    url("gilroy-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroymedium_italic";
+  src: url("gilroy-mediumitalic-webfont.woff2") format("woff2"),
+    url("gilroy-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroyblack";
+  src: url("gilroy-black-webfont.woff2") format("woff2"),
+    url("gilroy-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroysemibold";
+  src: url("gilroy-semibold-webfont.woff2") format("woff2"),
+    url("gilroy-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+.baslik {
+  width: 100%;
+  height: 90vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  overflow: hidden;
+  object-fit: fill;
+  background-image: url(./yaprak_makro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0 10px 30px rgba(80, 80, 80, 0.5);
+}
+
+span {
+  color: green;
+}
+
+#baslik_yazi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  margin: 0;
+  top: 35%;
+  font-size: 120px;
+  font-family: "gilroybold";
+  text-shadow: 0 0 25px rgba(37, 37, 37, 0.8);
+}
+
+.baslik h3 {
+  color: white;
+  font-family: "gilroysemibold";
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+@keyframes navhover {
+  0% {
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+}
+
+h3:hover {
+  animation: navhover 0.7s ease 1 forwards;
+}
+
+#account {
+  float: left;
+  font-family: "gilroybold";
+  margin-right: 73%;
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+}
+
+.fa-angle-down {
+  position: relative;
+  left: 49%;
+  margin-top: 1.2%;
+  font-size: 32px;
+}
+
+#orta_resim_1,
+#orta_resim_2,
+#orta_resim_3 {
+  width: 28%;
+  height: 60vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 60px;
+  text-align: center;
+  color: white;
+  font-family: "gilroyextrabold";
+  margin-left: 4%;
+  margin-top: 4%;
+  float: left;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+#orta_resim_1 h1,
+#orta_resim_2 h1,
+#orta_resim_3 h1 {
+  position: relative;
+  top: 70%;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+#orta_resim_1 {
+  background-image: url(./meyveli_cicek_yakin.jpg);
+}
+#orta_resim_2 {
+  background-image: url(./pembe_cicek_yakin.jpg);
+}
+#orta_resim_3 {
+  background-image: url(./ince_yaprak_makro.jpg);
+}
+
+#orta_baslik {
+  font-family: "gilroyblack";
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+.orta {
+  margin-top: 4%;
+  height: 75vh;
+  width: 100%;
+}
+
+#ok,
+#ok::after,
+#ok::before {
+  text-decoration: none;
+  color: black;
+}
+
+.bilgi_parcasi {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 0;
+  width: 100%;
+  height: 46.5vh;
+  background-color: rgb(0, 0, 0);
+  background: url(./yesil_bitkiler_dik.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 45px -15px rgba(0, 0, 0, 0.5);
+}
+
+.bilgi_parcasi h1 {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "gilroybold";
+  /* text-align: left; */
+  width: 25%;
+  height: 100%;
+  margin-top: 1%;
+  margin-bottom: 0;
+  margin-left: 2%;
+  float: left;
+  font-size: 5vw;
+  text-size-adjust: inherit;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.bilgi_parcasi p {
+  color: white;
+  font-family: "gilroysemibold";
+  width: 70%;
+  float: left;
+  margin-top: 8%;
+  text-align: right;
+  font-size: 1.2rem;
+  text-shadow: 0 0 8px black;
+}
+
+.bilgi_parcasi2 {
+  width: 100%;
+  height: 85vh;
+  background-color: rgb(0, 204, 14);
+  margin-top: 0;
+  z-index: -1;
+}
+
+.bilgi_parcasi2 h1 {
+  display: inline-block;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "gilroybold";
+  font-size: 3rem;
+  margin-top: 3%;
+  margin-left: 70%;
+  margin-bottom: 0.5%;
+}
+
+.bilgi_parcasi2 p {
+  color: white;
+  font-family: "gilroybold";
+  text-align: right;
+  width: 65%;
+  margin-left: 33%;
+  margin-right: 3%;
+}
+
+#bilgi2_baslik2 {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-family: "gilroybold";
+  font-size: 3rem;
+  margin-bottom: 0.5%;
+  margin-right: 70%;
+  margin-left: 4%;
+}
+
+#bilgi2_paragraf2 {
+  position: relative;
+  color: white;
+  font-family: "gilroybold";
+  text-align: left;
+  width: 65%;
+  margin-right: 33%;
+  margin-left: 2%;
+}
