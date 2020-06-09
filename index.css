@@ -50,6 +50,13 @@
 
 body {
   margin: 0;
+  background-color: rgb(222, 255, 189);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
 }
 
 .baslik {
@@ -61,6 +68,7 @@ body {
   overflow: hidden;
   object-fit: fill;
   background-image: url(./yaprak_makro.jpg);
+  filter: saturate(150%);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0 0 100px 100px;
@@ -68,7 +76,7 @@ body {
 }
 
 span {
-  color: green;
+  color: rgb(0, 204, 14);
 }
 
 #baslik_yazi {
@@ -222,7 +230,7 @@ h3:hover {
 
 .bilgi_parcasi2 {
   width: 100%;
-  height: 85vh;
+  height: 188vh;
   background-color: rgb(0, 204, 14);
   margin-top: 0;
   z-index: -1;
@@ -246,6 +254,7 @@ h3:hover {
   width: 65%;
   margin-left: 33%;
   margin-right: 3%;
+  opacity: 0.95;
 }
 
 #bilgi2_baslik2 {
@@ -267,4 +276,94 @@ h3:hover {
   width: 65%;
   margin-right: 33%;
   margin-left: 2%;
+}
+
+#donate {
+  position: relative;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#donatep {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+  margin: 0;
+}
+
+#form {
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 30%;
+  height: 65vh;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(225, 255, 225);
+  border-radius: 50px;
+  display: block;
+  box-shadow: 0 0 30px -20px rgb(44, 44, 44);
+}
+
+#isim,
+#mail,
+#miktar,
+#submit {
+  display: block;
+  font-family: "gilroybold";
+}
+
+#isim,
+#mail,
+#miktar {
+  width: 75%;
+  height: 5vh;
+
+  color: rgb(84, 116, 88);
+  border: 3px solid rgb(169, 184, 168);
+  background-color: rgb(250, 250, 250);
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 12%;
+}
+
+#isim {
+  margin-top: 20%;
+}
+
+#submit {
+  font-size: 1rem;
+  width: 50%;
+  height: 5vh;
+  border: 5px solid rgb(36, 255, 21);
+  border-radius: 20px;
+  background-color: rgb(59, 255, 69);
+  color: rgb(244, 255, 245);
+  margin-top: 14%;
+  margin-left: 25%;
+}
+
+#submit:hover {
+  font-size: 1rem;
+  width: 50%;
+  height: 5vh;
+  border: 5px solid rgb(217, 255, 214);
+  border-radius: 20px;
+  background-color: rgb(244, 255, 244);
+  color: rgb(19, 255, 38);
+  margin-top: 14%;
+  margin-left: 25%;
+}
+
+#submit:active {
+  font-size: 1rem;
+  width: 50%;
+  height: 5vh;
+  border: 5px solid rgb(217, 255, 214);
+  border-radius: 20px;
+  background-color: rgb(244, 255, 244);
+  color: rgb(19, 255, 38);
+  margin-top: 14%;
+  margin-left: 25%;
 }

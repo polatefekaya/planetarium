@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "gilroyextrabold";
+  src: url("gilroy-extrabold-webfont.woff2") format("woff2"),
+    url("gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroybold";
+  src: url("gilroy-bold-webfont.woff2") format("woff2"),
+    url("gilroy-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroyregular";
+  src: url("gilroy-regular-webfont.woff2") format("woff2"),
+    url("gilroy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroymedium";
+  src: url("gilroy-medium-webfont.woff2") format("woff2"),
+    url("gilroy-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroymedium_italic";
+  src: url("gilroy-mediumitalic-webfont.woff2") format("woff2"),
+    url("gilroy-mediumitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroyblack";
+  src: url("gilroy-black-webfont.woff2") format("woff2"),
+    url("gilroy-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroysemibold";
+  src: url("gilroy-semibold-webfont.woff2") format("woff2"),
+    url("gilroy-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+
+#arkaplanres {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-image: url(./genis_doga_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  /* filter: blur(4px); */
+  /* -webkit-filter: blur(4px); */
+}
+
+#blur {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.hesapmenu {
+  height: 100vh;
+  width: 30%;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(16, 147, 255),
+    rgba(16, 187, 255, 0)
+  );
+}
+
+.hesapmenu {
+  color: white;
+  font-family: "gilroyregular";
+  position: fixed;
+}
+
+#isim {
+  font-family: "gilroyblack";
+  font-size: 2.5rem;
+  width: 50%;
+  margin: 13% 2% 0 4%;
+  float: left;
+}
+
+.fa-user-circle {
+  margin: 13% 0 0 0;
+  color: white;
+  opacity: 95%;
+  /* float: left; */
+  width: 40%;
+  font-size: 6rem;
+}
+
+#treecounter {
+  font-size: 1.3rem;
+  margin: 8% 0 0 4%;
+}
+
+#treecounter span {
+  font-family: "gilroybold";
+}
+
+.hesapmenu a {
+  font-family: "gilroysemibold";
+  margin: 8% 0 0 4%;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  float: none;
+}
+
+#account {
+  margin-top: 13%;
+}
+
+#help {
+  margin: 25% 0 0 4%;
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+#copy {
+  font-size: 0.9rem;
+  margin: 3% 0 0 4%;
+  opacity: 0.8;
+}
